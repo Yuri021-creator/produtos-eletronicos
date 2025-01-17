@@ -1,123 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos Eletrônicos - Fale Conosco</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f8fc;
-            color: #333;
-        }
-        .header {
-            text-align: center;
-            background: linear-gradient(90deg, #007BFF, #0056b3);
-            color: white;
-            padding: 50px 20px;
-        }
-        .header h1 {
-            font-size: 2.5em;
-            margin: 0;
-        }
-        .header p {
-            font-size: 1.2em;
-            margin: 10px 0 30px;
-        }
-        .header a {
-            text-decoration: none;
-            background-color: #fff;
-            color: #0056b3;
-            padding: 15px 25px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .products {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 20px;
-            gap: 20px;
-        }
-        .product-card {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 300px;
-            text-align: center;
-            padding: 20px;
-        }
-        .product-card img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-        .product-card h3 {
-            font-size: 1.5em;
-            margin: 10px 0;
-        }
-        .product-card p {
-            font-size: 1em;
-            margin: 5px 0 15px;
-        }
-        .product-card a {
-            text-decoration: none;
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .cta {
-            text-align: center;
-            background: #0056b3;
-            color: white;
-            padding: 40px 20px;
-        }
-        .cta h2 {
-            font-size: 2em;
-        }
-        .cta a {
-            text-decoration: none;
-            background-color: #fff;
-            color: #0056b3;
-            padding: 15px 25px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-    </style>
+    <title>Produtos Eletrônicos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
+    <header class="hero">
         <h1>Os Melhores Eletrônicos para Você!</h1>
         <p>Aproveite nossas ofertas exclusivas e fale diretamente no WhatsApp.</p>
-        <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Quero Saber Mais</a>
-    </div>
-    <div class="products">
+        <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" class="cta">Quero Saber Mais</a>
+    </header>
+    <main class="products">
         <div class="product-card">
-            <img src="01.jpeg" alt="Notebook Dell">
+            <img src="./01.jpeg" alt="Notebook Dell" onerror="this.onerror=null; this.src='https://via.placeholder.com/300?text=Imagem+Não+Encontrada';">
             <h3>Notebook Dell Inspiron 15</h3>
             <p>Alto desempenho para trabalho e estudos.</p>
             <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Quero este produto</a>
         </div>
         <div class="product-card">
-            <img src="02.jpeg" alt="Notebook Acer">
+            <img src="./02.jpeg" alt="Notebook Acer" onerror="this.onerror=null; this.src='https://via.placeholder.com/300?text=Imagem+Não+Encontrada';">
             <h3>Notebook Acer Aspire 5</h3>
             <p>Ideal para quem busca qualidade e custo-benefício.</p>
-            <a href="https://wa.me/1198557382?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Quero este produto</a>
+            <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Quero este produto</a>
         </div>
         <div class="product-card">
-            <img src="03.jpeg" alt="MacBook Pro">
+            <img src="./03.jpeg" alt="MacBook Pro" onerror="this.onerror=null; this.src='https://via.placeholder.com/300?text=Imagem+Não+Encontrada';">
             <h3>MacBook Pro</h3>
             <p>Para quem precisa de potência e design premium.</p>
             <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Quero este produto</a>
         </div>
-    </div>
-    <div class="cta">
-        <h2>Não Perca Tempo!</h2>
-        <p>Garanta seu eletrônico agora mesmo. Fale conosco pelo WhatsApp!</p>
-        <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Fale Conosco Agora</a>
-    </div>
+    </main>
 </body>
 </html>
