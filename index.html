@@ -128,6 +128,7 @@
         .cta-container h2 {
             font-size: 1.8rem;
             margin-bottom: 20px;
+            word-wrap: break-word;
         }
         .cta-container a {
             font-size: 1.2rem;
@@ -136,10 +137,13 @@
             padding: 15px 30px;
             border-radius: 5px;
             text-decoration: none;
+            display: inline-block;
+            width: auto;
         }
         .cta-container a:hover {
             background-color: #003399;
         }
+
         .secure-section {
             background-color: #ffffff;
             border-top: 2px solid #0044cc;
@@ -148,6 +152,16 @@
         .secure-section img {
             width: 50px;
             margin: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .cta-container h2 {
+                font-size: 1.5rem;
+            }
+            .cta-container a {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
         }
     </style>
 </head>
@@ -234,14 +248,14 @@
 
     <!-- CTA - Ação mais específica -->
     <div class="cta-container">
-        <h2>Está pronto para adquirir o melhor produto para o seu trabalho?</h2>
-        <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20adquirir%20um%20produto!" class="cta">Clique aqui e aproveite nossa oferta exclusiva!</a>
+        <h2>Está pronto para adquirir os melhores produtos para o seu trabalho?</h2>
+        <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20adquirir%20um%20produto!" class="cta">Clique aqui e aproveite nossas ofertas exclusivas!</a>
     </div>
 
-    <!-- Horário de Atendimento -->
+    <!-- Informação de Contato -->
     <div class="contact-info">
-        <p><strong>Horário de Atendimento:</strong> Segunda a sexta, das 08:00 às 18:00.</p>
+        <p>Atendimento: Segunda a Sexta das 08:00 às 18:00</p>
+        <p>WhatsApp: <a href="https://wa.me/11985573882" target="_blank" style="color: #fff;">(11) 98855-7388</a></p>
     </div>
-
 </body>
 </html>
