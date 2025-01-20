@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Eletrônicos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header.hero {
+            background-color: #0044cc;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        header.hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header.hero p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+        .cta {
+            background-color: #ff9900;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 5px;
+        }
+        .cta:hover {
+            background-color: #e68900;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .product-card {
+            background-color: white;
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .product-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product-card h3 {
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+        .product-card p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+        .product-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0044cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .product-card a:hover {
+            background-color: #003399;
+        }
+        .section {
+            padding: 40px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .testimonials {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .testimonial {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+        .testimonial img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .testimonial p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+        .testimonial strong {
+            font-size: 1.1rem;
+        }
+        .contact-info {
+            background-color: #0044cc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-info p {
+            font-size: 1.1rem;
+            margin: 0;
+        }
+        .cta-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .cta-container h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        .cta-container a {
+            font-size: 1.2rem;
+            background-color: #0044cc;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .cta-container a:hover {
+            background-color: #003399;
+        }
+        .secure-section {
+            background-color: #ffffff;
+            border-top: 2px solid #0044cc;
+            padding: 30px 0;
+        }
+        .secure-section img {
+            width: 50px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero">
+        <h1>Os Melhores Eletrônicos para Você!</h1>
+        <p>Aproveite nossas ofertas exclusivas e fale diretamente no WhatsApp.</p>
+        <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" class="cta">Quero Saber Mais</a>
+    </header>
+
+    <!-- Produtos -->
+    <main class="products">
+        <div class="product-card">
+            <img src="./01.jpeg" alt="Notebook Dell" onerror="this.onerror=null; this.src='https://via.placeholder.com/300?text=Imagem+Não+Encontrada';">
+            <h3>Notebook Dell Inspiron 15</h3>
+            <p>Alto desempenho para trabalho e estudos.</p>
+            <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Quero este produto</a>
+        </div>
+        <div class="product-card">
+            <img src="./02.jpeg" alt="Notebook Acer" onerror="this.onerror=null; this.src='https://via.placeholder.com/300?text=Imagem+Não+Encontrada';">
+            <h3>Notebook Acer Aspire 5</h3>
+            <p>Ideal para quem busca qualidade e custo-benefício.</p>
+            <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Quero este produto</a>
+        </div>
+        <div class="product-card">
+            <img src="./03.jpeg" alt="MacBook Pro" onerror="this.onerror=null; this.src='https://via.placeholder.com/300?text=Imagem+Não+Encontrada';">
+            <h3>MacBook Pro</h3>
+            <p>Para quem precisa de potência e design premium.</p>
+            <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20produtos!" target="_blank">Quero este produto</a>
+        </div>
+    </main>
+
+    <!-- Seção de Confiança e Segurança -->
+    <div class="secure-section">
+        <h2>Compra 100% Segura</h2>
+        <p>Compre com total confiança. Seu pagamento é processado com segurança usando os métodos mais confiáveis do mercado.</p>
+        <div style="display: flex; justify-content: center; gap: 30px;">
+            <img src="paypal-icon.png" alt="Pagamento Seguro via PayPal" />
+            <img src="stripe-icon.png" alt="Pagamento Seguro via Stripe" />
+            <img src="ssl-secure-icon.png" alt="SSL Certificado de Segurança" />
+        </div>
+    </div>
+
+    <!-- Seção de Variedade de Produtos -->
+    <div class="section">
+        <h2>Temos Todos os Modelos e Preços</h2>
+        <p>Não importa o seu estilo ou orçamento, temos os produtos que atendem às suas necessidades. Desde os modelos mais simples até os mais sofisticados, com preços acessíveis!</p>
+    </div>
+
+    <!-- Seção de Descontos para Lotes -->
+    <div class="section">
+        <h2>Descontos Especiais para Lotes</h2>
+        <p>Compre em grandes quantidades e aproveite descontos exclusivos! Quanto mais você compra, mais você economiza.</p>
+        <ul>
+            <li>10 unidades: 10% de desconto</li>
+            <li>50 unidades: 15% de desconto</li>
+        </ul>
+        <a href="https://wa.me/11985573882?text=Gostaria%20de%20saber%20mais%20sobre%20descontos%20para%20lotes!" class="cta">Saiba Mais</a>
+    </div>
+
+    <!-- Seção de Depoimentos -->
+    <div class="section">
+        <h2>O que nossos clientes dizem</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <img src="04.speg" alt="João S.">
+                <p>"Excelente qualidade e atendimento! Super recomendo!"</p>
+                <strong>João S.</strong>
+            </div>
+            <div class="testimonial">
+                <img src="04.jpeg" alt="Ana L.">
+                <p>"Produtos que atendem todas as minhas necessidades. Muito satisfeita!"</p>
+                <strong>Ana L.</strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção de Garantias -->
+    <div class="section">
+        <h2>Garantia de Satisfação</h2>
+        <p>Se você não estiver 100% satisfeito com sua compra, oferecemos uma política de devolução simples. Garantimos a melhor experiência para você!</p>
+    </div>
+
+    <!-- CTA - Ação mais específica -->
+    <div class="cta-container">
+        <h2>Está pronto para adquirir o melhor produto para o seu trabalho?</h2>
+        <a href="https://wa.me/11985573882?text=Olá%2C%20gostaria%20de%20adquirir%20um%20produto!" class="cta">Clique aqui e aproveite nossa oferta exclusiva!</a>
+    </div>
+
+    <!-- Horário de Atendimento -->
+    <div class="contact-info">
+        <p><strong>Horário de Atendimento:</strong> Segunda a sexta, das 08:00 às 18:00.</p>
+    </div>
+
+</body>
+</html>
